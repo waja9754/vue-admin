@@ -7,7 +7,7 @@ module.exports = {
    //输出文件目录
    outputDir:process.env.NODE_ENV === 'production'?'dist':'devdist',
    //eslint-loader 是否在保存时检查
-   lintOnSave: true,
+   lintOnSave: false,
 
 
   chainWebpack:(config)=>{
